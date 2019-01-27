@@ -23,7 +23,7 @@ h3{
 }
 
 /*Efeito Parallax*/
-.caixa1, .caixa2, .caixa3, .caixa4, .caixa5 {
+.caixa1, .caixa2, .caixa3, .caixa4, .caixa5 , .caixa7 {
 	position: relative;
 	height: 100%;
 	opacity: 0.8;
@@ -60,6 +60,10 @@ p{
   background-image: url(imagens/imagem5.jpg);
 }
 
+.caixa7{
+  background-image: url(imagens/t.jpg);
+}
+
 .conteudo-titulo{
 	position: absolute;
 	left: 0;
@@ -74,4 +78,66 @@ p{
 	font-size: 25px;
 	letter-spacing: 5px;
 	text-transform: uppercase;
+}
+
+#navegação ul li a{
+	text-decoration: none;
+}
+
+#navegação ul li{
+	list-style: none;
+	display: inline;
+	padding: 10px;
+	text-transform: uppercase;
+}
+
+#navegação ul{
+	margin-top: 50px;
+	text-align: center;
+
+}
+
+
+#navegação ul li a{
+	font-weight: bold;
+	color:#111;
+
+	
+}
+
+#navegação ul li a:hover{
+	background-color: #111;
+	color: #fff;
+	padding: 10px;
+
+	
+}
+
+#box{
+	box-shadow: 0 10px 10px grey;
+	padding: 10px;
+
+}
+
+#box{
+	background-image: url(imagens/TT.png) ;
+	background-repeat: repeat-y;
+	background-position: left;
+
+}
+
+#rodape{
+	text-align: center;
+}
+
+span{
+	font-weight: bold;
+}
+
+body.home #box #navegação a#home,
+body.contato #box #navegação a#contato{
+	background-color: #111;
+	color: #fff;
+	padding: 10px;
+
 }
